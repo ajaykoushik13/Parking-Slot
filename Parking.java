@@ -34,8 +34,8 @@ class Vehicle
 
 class Space
 {
-	static final int floor = 2;
-	static final int space = 2;
+	static final int floor = 4;
+	static final int space = 10;
 	private static int slot[][]= new int [floor][space]; //Encapsulating the data
 	public int isAvailable() //if available returns the ticket number
 	{
